@@ -8,12 +8,33 @@
 }
 
 body {
-	background-color: black ;
+	background-color: red ;
 }
 .wrapper {
-	height:80vh;
+	height:70vh;
 	margin: 10vh auto 0;
 	position: relative;
-	width: 700px;
+	width: 60vw;
 }
+
+.slider {
+	background-color: black;
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	-o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+.wrapper > input {
+	display: none;
+}
+.slides {
+	height:fit-content;
+	text-align: center;
+	width: 100%;
+}
+
 
