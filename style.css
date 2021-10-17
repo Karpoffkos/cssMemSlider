@@ -65,7 +65,7 @@
 }
 
 .wrapper label:after {
-	border: 2px solid red;
+	border: 2px solid rgb(109, 86, 86);
 	content: " ";
 	display: block;
 	height: 12px;
